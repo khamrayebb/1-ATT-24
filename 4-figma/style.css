@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    background-image: url(Image\ \(28\).png);
+    width: 100%;
+    height: 774px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.navbar{
+    width: 80%;
+    height: 98px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0  0 16px 16px;
+}
+
+.navbar .logo{
+    width: 58px;
+    height: 46px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.navbar .category{
+    width: 479px;
+    height: 26px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar .category p{
+    font-size: 16px;
+    color: #141414;
+}
+.navbar .category select{
+    width: 79px;
+    height: 26px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #141414;
+}
+.navbar .btn{
+    width: 207px;
+    height: 58px;
+    
+}
+.navbar .btn button{
+    width: 207px;
+    height: 58px;
+    border: 1px solid #141414;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head .text{
+    width: 80%;
+    height: 466px;
+
+}
+
+.head .text h1{
+    font-size: 78px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 98px;
+}
+
+.head .text p{
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 30px;
+
+}
+
+
+
+.head .text button{
+    background-color: #2937B1;
+    width: 339px;
+    height: 80px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 36px;
+}
+
+
+
+.plan{
+    width: 100%;
+    height: 1053px;
+    background-color: #F4F4F4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+
+
+.plan .perfect{
+    width: 576px;
+    height: 155px;
+    text-align: center;
+
+}
+
+.plan .perfect h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #141414;
+    margin-bottom: 30px;
+}
+.plan .perfect span{
+    display: flex;
+    justify-content: center;
+}
+.plan .perfect span .btn1{
+    width: 178px;
+    height: 64px;
+    border: 1px #2937B1 solid;
+    border-radius: 8px 0 0  8px ;
+    background-color: #FFFFFF;
+    color: #2937B1;
+    font-size: 20px;
+}
+.plan .perfect span .btn2{
+    width: 138px;
+    height: 64px;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    color: #FFFFFF;
+    background-color: #2937B1;
+    font-size: 20px; 
+}
+.plan .tarif{
+    width: 70%;
+    height: 598px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.plan .tarif .tarif1,.tarif2,.tarif3{
+    width: 385px;
+    height: 598px;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin-right: 10px;
+}
+
+.plan .tarif .tarif1{
+    background-color:#FFFFFF ;
+    border-radius: 16px;
+    padding-left: 15px;
+}
+.plan .tarif .tarif1 .sp0{
+    width: 322px;
+    height: 102px;
+}
+
+.plan .tarif .tarif1 .sp0 h1{
+    font-size: 48px;
+    color: #141414;
+    font-weight: 700;
+}
+.plan .tarif .tarif1 .sp0 p{
+    font-size: 18px;
+    color: #141414;
+}
+
+.plan .tarif .tarif1 .sp{
+    width: 145px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+
+}
+.plan .tarif .tarif1 .sp h4{
+    font-size: 36px;
+    font-weight: 700;
+    color: #2937B1;
+}
+
+.plan .tarif .tarif1 .sp p{
+    font-size: 18px;
+    color: #141414;
+}
+
+.plan .tarif .tarif1 button{
+    width: 322px;
+    height: 80px;
+    border: 1px #2937B1 solid;
+    border-radius:8px ;
+    background-color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700px;
+    color: #2937B1;
+}
+
+.plan .tarif .tarif1 .sp1{
+    width: 179px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.plan .tarif .tarif2{
+    background-color: #FAE084;
+    border-radius: 16px;
+    padding-left: 15px;
+}
+.plan .tarif .tarif2 .sp0{
+    width: 322px;
+    height: 102px;
+}
+
+.plan .tarif .tarif2 .sp0 h1{
+    font-size: 48px;
+    color: #141414;
+    font-weight: 700;
+}
+.plan .tarif .tarif2 .sp0 p{
+    font-size: 18px;
+    color: #141414;
+}
+
+.plan .tarif .tarif2 .sp{
+    width: 145px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+
+}
+.plan .tarif .tarif2 .sp h4{
+    font-size: 36px;
+    font-weight: 700;
+    color: #2937B1;
+}
+
+.plan .tarif .tarif2 .sp p{
+    font-size: 18px;
+    color: #141414;
+}
+
+.plan .tarif .tarif2 button{
+    width: 322px;
+    height: 80px;
+    border: none;
+    border-radius:8px ;
+   color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700px;
+    background-color: #2937B1;
+}
+
+.plan .tarif .tarif2 .sp1{
+    width: 179px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.quicly{
+    width: 100%;
+    height: 954px;
+    background-color: #F4F4F4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+
+.quicly .text{
+    width: 70%;
+    height: 120px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.quicly .quic-category{
+    width: 80%;
+    height: 374px;
+    display: flex;
+    justify-content: center;
+}
+
+.quicly .quic-category .card1{
+    width: 322px;
+    height: 374px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    text-align: center;
+    
+}  
+.quicly .quic-category .card1 img{
+    margin-top: 20px;
+}
+.quicly .quic-category .card1 img,h1,p{
+    margin-bottom: 20px;
+} 
+.quicly .quic-category .card1 h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #141414;
+}
+.quicly .quic-category .card1 p{
+    font-size: 18px;
+    color: #141414cf ;
+}
+
+.quicly .quic-category .card2{
+    width: 97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.quicly .quick-btn{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quicly .quick-btn button{
+    width: 339px;
+    height: 80px;
+    border: 1px solid #2937B1;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2937B1;
+}
